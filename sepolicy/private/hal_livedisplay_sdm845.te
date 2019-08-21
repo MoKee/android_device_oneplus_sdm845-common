@@ -1,5 +1,5 @@
 type hal_livedisplay_sdm845, coredomain, domain;
-hal_server_domain(hal_livedisplay_sdm845, hal_lineage_livedisplay)
+hal_server_domain(hal_livedisplay_sdm845, hal_mokee_livedisplay)
 
 type hal_livedisplay_sdm845_exec, exec_type, file_type;
 init_daemon_domain(hal_livedisplay_sdm845)

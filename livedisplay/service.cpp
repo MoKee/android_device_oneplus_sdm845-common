@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "lineage.livedisplay@2.0-service.oneplus_sdm845"
+#define LOG_TAG "mokee.livedisplay@2.0-service.oneplus_sdm845"
 
 #include <android-base/logging.h>
 #include <binder/ProcessState.h>
@@ -22,10 +22,10 @@
 #include "DisplayModes.h"
 #include "SunlightEnhancement.h"
 
-using ::vendor::lineage::livedisplay::V2_0::IDisplayModes;
-using ::vendor::lineage::livedisplay::V2_0::ISunlightEnhancement;
-using ::vendor::lineage::livedisplay::V2_0::implementation::DisplayModes;
-using ::vendor::lineage::livedisplay::V2_0::implementation::SunlightEnhancement;
+using ::vendor::mokee::livedisplay::V2_0::IDisplayModes;
+using ::vendor::mokee::livedisplay::V2_0::ISunlightEnhancement;
+using ::vendor::mokee::livedisplay::V2_0::implementation::DisplayModes;
+using ::vendor::mokee::livedisplay::V2_0::implementation::SunlightEnhancement;
 
 int main() {
     android::sp<IDisplayModes> modesService = new DisplayModes();
